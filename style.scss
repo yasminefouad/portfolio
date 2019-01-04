@@ -1,0 +1,63 @@
+body {
+    background-image:url(background.svg);
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    .main {
+        position: relative;
+        width: 90vw;
+        height: 90vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        background-color: white;
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.16);
+        border-radius: 25px;
+        .nav {
+            margin: 5%;
+            height: 60px;
+            width: 90%;
+            position: absolute;
+            display: block;
+            .logo {
+                position: relative;
+                width: 50%;
+                height: 80%;
+                img {
+                   width: 52px;
+                    }
+                #signature {
+                   width: 75px;
+                   transform: translateY(-13px);
+                           }    
+                 }
+            .menu {
+                position: relative;
+                width: 50%;
+                height: 80%;
+                float: right;
+               .navbar {
+                   font-size: 16px;
+                   text-decoration: none;
+                   font-family: Titillium Web semibold;
+                   color:#78257D;
+                   //padding: 5px;
+                       }
+                .navbar:hover {
+                    color: #54479A;
+                    background-color: #F7F3F7;
+                    border-radius: 6px;
+                    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+                             }      
+        }
+    }
+    div{
+    position: relative;
+    width: 50%;
+    height: 80%;
+    background: url(images/home_.png) right bottom no-repeat;
+}
+}
+    
+
+}
