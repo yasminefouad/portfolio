@@ -20,6 +20,7 @@ body {
         border-radius: 25px;
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         .row-top {
            // height: 10%;
             margin: 3% 5% 0% 5%;
@@ -87,8 +88,9 @@ body {
                  flex-direction: column;
             }
             .row-top .column-right {
-                  margin-left: 0;
                   margin-top: 60px;
+                  transform: translateX(-48%);
+                  margin-left: 0;
             }
             .row-top .column-right nav {
                float: none;
@@ -105,56 +107,81 @@ body {
                 font-size: 26px;
                           }
                                    }
-                                   
+                                
                      
-        @media (max-width: 870px) { 
-            // .main .row-top {
-            //      flex-direction: column;
-            // }
-            // .row-top .column-right {
-            //       margin-left: 0;
-            //       margin-top: 60px;
-            // }
-            // .row-top .column-right nav {
-            //    float: none;
-            //    margin-right: 0;
-            //                 }
+        @media (max-width: 600px) { 
+            .main .row-top {
+                 flex-direction: column;
+            }
+            .row-top .column-right {
+                  margin-top: 60px;
+                //  transform: translateX(-24%);
+                  margin-left: 0;
+            }
+            .row-top .column-right nav {
+               float: none;
+               margin-right: 0;
+                            }
    
-            // .row-bottom {
-            //     padding-top: 70px;
-            //             } 
+            .row-bottom {
+                padding-top: 40px;
+                        } 
             .row-bottom #quote {
                 font-size: 34px;
                                }              
             .row-bottom a {
                 font-size: 24px;
                           }
-                                   }
+                                   }   
+                     
+        // @media (max-width: 870px) { 
+        //     // .main .row-top {
+        //     //      flex-direction: column;
+        //     // }
+        //     // .row-top .column-right {
+        //     //       margin-left: 0;
+        //     //       margin-top: 60px;
+        //     // }
+        //     // .row-top .column-right nav {
+        //     //    float: none;
+        //     //    margin-right: 0;
+        //     //                 }
+   
+        //     // .row-bottom {
+        //     //     padding-top: 70px;
+        //     //             } 
+        //     .row-bottom #quote {
+        //         font-size: 34px;
+        //                        }              
+        //     .row-bottom a {
+        //         font-size: 24px;
+        //                   }
+        //                            }
                                    
                      
-        @media (max-width: 480px) { 
-            // .main .row-top {
-            //      flex-direction: column;
-            // }
-            // .row-top .column-right {
-            //       margin-left: 0;
-            //       margin-top: 60px;
-            // }
-            // .row-top .column-right nav {
-            //    float: none;
-            //    margin-right: 0;
-            //                 }
+        // @media (max-width: 480px) { 
+        //     // .main .row-top {
+        //     //      flex-direction: column;
+        //     // }
+        //     // .row-top .column-right {
+        //     //       margin-left: 0;
+        //     //       margin-top: 60px;
+        //     // }
+        //     // .row-top .column-right nav {
+        //     //    float: none;
+        //     //    margin-right: 0;
+        //     //                 }
    
-            // .row-bottom {
-            //     padding-top: 70px;
-            //             } 
-            .row-bottom #quote {
-                font-size: 32px;
-                               }              
-            .row-bottom a {
-                font-size: 22px;
-                          }
+        //     // .row-bottom {
+        //     //     padding-top: 70px;
+        //     //             } 
+        //     .row-bottom #quote {
+        //         font-size: 32px;
+        //                        }              
+        //     .row-bottom a {
+        //         font-size: 22px;
+        //                   }
                                    }
           }
             
-        }
+        
