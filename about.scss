@@ -1,5 +1,5 @@
 body {
-    background-image: url(background.svg);
+    background-image: url(images/background.svg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: hidden;
@@ -21,18 +21,18 @@ body {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        .row-top {
+        .top {
             margin: 3% 5% 0% 5%;
             display: flex;
             flex-direction: row;
-           .column-left{
+           .left{
                 height: 10%;
                 img {
                    height: 40px;
                    padding: 10px;
                     }
                  }
-           .column-right {
+           .right {
                 margin-left: 50%;
               nav {
                 margin-right: 40px;
@@ -54,11 +54,11 @@ body {
                  }
                  }
                  }
-        .row-bottom {
+        .bottom {
                 margin: 0% 0% 3% 5%;
                 padding: 10px 0 0 10px;
                 h6 {
-                    font-size: 30px;
+                    font-size: 28px;
                     font-family: 'Raleway', sans-serif;
                     color:#78257D;  
                     margin-bottom: 0;
@@ -66,7 +66,7 @@ body {
                 }
              #quote {
                 margin: 0 0 20px 0;
-                font-size: 28px;
+                font-size: 24px;
                 font-family: 'Raleway', sans-serif;
                 color:#78257D;  
                 font-weight: 50;
@@ -85,27 +85,27 @@ body {
                        
                      
         @media (max-width: 1125px) { 
-            .main .row-top {
+            .main .top {
                  flex-direction: column;
             }
-            .row-top .column-right {
+            .top .right {
                   margin-top: 60px;
                   transform: translateX(-48%);
                   margin-left: 0;
             }
-            .row-top .column-right nav {
+            .top .right nav {
                float: none;
                margin-right: 0;
                             }
    
-            .row-bottom {
+            .bottom {
                 padding-top: 50px;
                         } 
-            .row-bottom h6 {
-                    font-size: 28px;
+            .bottom h6 {
+                    font-size: 26px;
                         }
-            .row-bottom #quote {
-                font-size: 26px;
+            .bottom #quote {
+                font-size: 22px;
                                }              
                                    }
                                 

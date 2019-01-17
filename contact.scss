@@ -12,8 +12,8 @@ body {
         margin-right: 10vw;
         margin-left: 10vw;
         background-color: white;
-        background-image: url(images/home_.png);
-        background-position: right bottom ;
+        background-image: url(images/contact_.png);
+        background-position: center bottom ;
         background-repeat: no-repeat;
         background-size: contain;
         box-shadow: 0px 5px 10px rgba(0,0,0,0.16);
@@ -55,27 +55,29 @@ body {
                  }
                  }
         .bottom {
-                margin: 0% 0% 3% 5%;
-                padding: 80px 0 0 10px;
+               // margin: 0% 0% 3% 5%;
+               // padding: 10px 0 0 10px;
+                text-align: center;
+                h6 {
+                    font-size: 28px;
+                    font-family: 'Raleway', sans-serif;
+                    color:#78257D;  
+                    margin-bottom: 0;
+                    font-weight: 700;
+                }
              #quote {
                 margin: 0 0 20px 0;
-                font-size: 38px;
+                font-size: 24px;
                 font-family: 'Raleway', sans-serif;
                 color:#78257D;  
+                font-weight: 50;
                     }        
-             #quote:first-of-type{
+             #quote:nth-of-type(1){
                  margin-bottom: 0;
-                                 }
-             a {
-                text-decoration: none;
-                color:white; 
-                font-size: 28px;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 500;
-                padding:4px 10px 4px 10px;
-                border-radius: 10px;
-                background-color: #861872;
-               }
+                                  }
+             #quote:nth-of-type(2){
+                 margin-bottom: 0;
+                                  }         
                     }
                        
                      
@@ -94,17 +96,16 @@ body {
                             }
    
             .bottom {
-                padding-top: 70px;
+                padding-top: 50px;
                         } 
+            .bottom h6 {
+                    font-size: 26px;
+                        }
             .bottom #quote {
-                font-size: 36px;
+                font-size: 22px;
                                }              
-            .bottom a {
-                font-size: 26px;
-                          }
                                    }
                                 
-                     
                                    }
           }
             
